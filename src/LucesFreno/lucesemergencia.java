@@ -8,7 +8,7 @@ package LucesFreno;
  *
  * @author HP I3
  */
-public class lucesemergencia {
+public class LucesEmergencia {
    
     private boolean activadas;
     private boolean estadoActual; // encendidas o apagadas
@@ -40,7 +40,7 @@ public class lucesemergencia {
     }
 
     // Constructor
-    public lucesemergencia(long intervalo) {
+    public LucesEmergencia(long intervalo) {
         this.activadas = false;
         this.estadoActual = false;
         this.intervalo = intervalo;

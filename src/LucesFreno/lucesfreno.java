@@ -8,11 +8,11 @@ package LucesFreno;
  *
  * @author HP I3
  */
-public class lucesfreno {
+public class LucesFreno {
      private boolean encendidas; // true = prendidas, false = apagadas
 
     // Constructor: inicialmente están apagadas
-    public lucesfreno() {
+    public LucesFreno() {
         this.encendidas = false;
     }
 
