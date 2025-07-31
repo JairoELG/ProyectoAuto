@@ -8,7 +8,7 @@ package LucesDelanteras;
  *
  * @author HP I3
  */
-public class LucesIntermitentes {
+public class lucesintermitentes {
  
     private boolean activadas;        // Si están activadas o no
     private boolean estadoActual;     // Si están encendidas o apagadas
@@ -43,7 +43,7 @@ public class LucesIntermitentes {
 
    
      // Constructor
-    public LucesIntermitentes(long intervalo) {
+    public lucesintermitentes(long intervalo) {
         this.activadas = false;
         this.estadoActual = false;
         this.intervalo = intervalo;
