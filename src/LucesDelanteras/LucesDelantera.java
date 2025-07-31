@@ -8,7 +8,7 @@ package LucesDelanteras;
  *
  * @author HP I3
  */
-public class LucesDelanteras {
+public class LucesDelantera {
     private boolean encendidas;
     private String modo; // "cortas" (baja intensidad) o "largas" (alta intensidad)
 
@@ -43,7 +43,7 @@ public class LucesDelanteras {
     }
     
     // Constructor
-    public LucesDelanteras() {
+    public LucesDelantera() {
         this.encendidas = false;
         this.modo = "cortas";
     }
